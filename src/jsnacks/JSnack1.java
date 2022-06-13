@@ -10,7 +10,7 @@ public class JSnack1 {
 		Il programma stampa la somma di tutti i numeri inseriti.
 		Esegui questo programma in due versioni, con il for e con il while. */
 
-		System.out.println("Questo esercizio farà la somma di 5 numeri inseriti in input dall'utente.");
+		System.out.println("Questo codice farà la somma di 5 numeri inseriti in input dall'utente.");
 		
 		int n /*numero da inserire in input*/, i = 0 /*indice/contatore*/, s = 0 /*somma numeri*/;
 		Scanner scan = new Scanner(System.in); /*variabile scanner per prendere i valori in input*/
