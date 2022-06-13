@@ -27,7 +27,7 @@ public class JSnack1 {
 			
 			System.out.print("Inserisci il " + (i + 1) + "° numero: ");
 			n = scan.nextInt();
-			s = s + n;
+			s += n;
 			i++;
 			
 		}

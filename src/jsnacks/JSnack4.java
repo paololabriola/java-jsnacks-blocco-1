@@ -30,7 +30,7 @@ public class JSnack4 {
 		for(int i=0; i < dimensioneVettore; i++) {
 			
 			if(i % 2 != 0)
-				sommaDispari = sommaDispari + vettore[i];
+				sommaDispari += vettore[i];
 			
 		}
 		

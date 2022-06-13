@@ -38,12 +38,14 @@ public class JSnack3 {
 		}
 		
 		Random rand = new Random();
+		String[] falsaLista = new String[3];
 		
 		for(int i = 0; i < 3; i++) {
 			
 		int nRandomizzato = rand.nextInt(nNomiCognomi);
 		int cRandomizzato = rand.nextInt(nNomiCognomi);
-		System.out.println("Il nome del " + (i + 1) + "° invitato è " + nomi[nRandomizzato] + cognomi[cRandomizzato]);
+		falsaLista[i] = nomi[nRandomizzato] + cognomi[cRandomizzato];
+		System.out.println("Il nome del " + (i + 1) + "° invitato è " + falsaLista[i]);
 		
 		}
 		
