@@ -44,7 +44,7 @@ public class JSnack3 {
 			
 		int nRandomizzato = rand.nextInt(nNomiCognomi);
 		int cRandomizzato = rand.nextInt(nNomiCognomi);
-		falsaLista[i] = nomi[nRandomizzato] + cognomi[cRandomizzato];
+		falsaLista[i] = nomi[nRandomizzato] + " " + cognomi[cRandomizzato];
 		System.out.println("Il nome del " + (i + 1) + "° invitato è " + falsaLista[i]);
 		
 		}
