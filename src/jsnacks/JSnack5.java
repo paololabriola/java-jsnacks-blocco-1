@@ -12,11 +12,19 @@ public class JSnack5 {
 		
 		System.out.println("Questo codice ti restituisce in output la distanza di Hamming di due parole di ugual grandezza.");
 		
-		int dimensioneParola;
+		String parola1, parola2;
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Inserisci la dimensione della parola: ");
-		dimensioneParola = scan.nextInt();
+		do {
+			
+		System.out.print("Inserisci due parole di egual dimensioni: ");
+		parola1 = scan.nextLine();
+		parola2 = scan.nextLine();
+		
+		if(parola1.length() != parola2.length())
+			System.out.println("Le parole devono avere la stessa dimensione! Riprova.");
+		
+		}while(parola1.length() != parola2.length());
 		
 		
 		
